@@ -4,9 +4,9 @@
 
 | NOME | CARGO | E-MAIL |
 |:---|:---|:---|
-| José Vinicius | Desenvolvedor / Aluno | - |
+| José Vinicius | Desenvolvedor / Aluno | martines.jose@estudante.ifro.edu.br |
 | Carlos Eduardo | Desenvolvedor / Aluno | - |
-| Luiz Guilhermy | Desenvolvedor / Aluno | - |
+| Luiz Guilhermy | Desenvolvedor / Aluno | moretti.luiz@estudante.ifro.edu.br |
 | Professores Orientadores | Cliente / Orientação | - |
 
 ---
@@ -41,7 +41,7 @@
 | ITEM | DETALHES |
 |:---|:---|
 | **NOME** | Sistema de Gestão e Avaliação de Projetos |
-| **Líder do Projeto** | [Nome do Líder] |
+| **Líder do Projeto** | [José Martines] |
 | **PRINCIPAL OBJETIVO** | Centralizar a gestão de projetos acadêmicos e implementar um sistema de avaliação 360° (Peer-to-Peer) para mensurar o desempenho individual e coletivo. |
 | **BENEFÍCIOS ESPERADOS** | Visão unificada do progresso para professores; feedback justo e desenvolvimento de soft skills para alunos; centralização de artefatos e notas. |
 | **INÍCIO E TÉRMINO PREVISTOS** | 2025 |
@@ -78,9 +78,7 @@ Métodos utilizados para a obtenção dos requisitos do sistema:
 
 ## Abrangência e Sistemas Similares
 
-* Trello (Gestão de tarefas)
 * Moodle (Ambiente acadêmico)
-* Ferramentas de avaliação 360° corporativas.
 
 ## Suposições e dependências
 
@@ -124,7 +122,7 @@ A tabela a seguir contém a relação dos Requisitos Funcionais elicitados:
 | **RF12** | Busca e Filtro | Busca textual e filtros avançados em listas de projetos e usuários. | Essencial |
 | **RF13** | Edição de Perfil | Usuário edita seus dados pessoais e altera senha. | Essencial |
 | **RF14** | Notificações | Alertas sobre prazos e novas atribuições. | Importante |
-| **RF15** | Excluir/Duplicar Projeto | Permitir exclusão e duplicação de projetos existentes. | Importante |
+| **RF15** | Excluir Projeto | Permitir exclusão de projetos existentes. | Importante |
 
 ## Requisitos Não Funcionais
 
@@ -311,23 +309,19 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 
 ### UC-15 - Duplicar Projeto (RF15)
 
-| UC-15 - Duplicar Projeto | |
-|:---|:---|
-| **Descrição/Objetivo:** | Criar cópia de projeto existente para reuso. |
-| **Atores:** | Professor, Sistema |
-| **FLUXO PRINCIPAL:** | 1. Professor clica em "Duplicar Projeto".<br>2. Insere nome para o novo projeto.<br>3. Sistema cria novo registro copiando estrutura (sem notas/alunos). |
 
-### UC-16 - Gerenciar Artefatos de Entrega
 
-| UC-16 - Gerenciar Artefatos de Entrega | |
+### UC-15 - Gerenciar Artefatos de Entrega
+
+| UC-15 - Gerenciar Artefatos de Entrega | |
 |:---|:---|
 | **Descrição/Objetivo:** | Upload e gestão de arquivos de entrega. |
 | **Atores:** | Aluno, Professor, Sistema |
 | **FLUXO PRINCIPAL:** | 1. Usuário acessa Detalhes > "Artefatos".<br>2. Clica em "Fazer Upload" ou insere Link.<br>3. Associa a um Milestone.<br>4. Sistema armazena o artefato. |
 
-### UC-17 - Definir Critérios de Avaliação (360º)
+### UC-16 - Definir Critérios de Avaliação (360º)
 
-| UC-17 - Definir Critérios de Avaliação | |
+| UC-16 - Definir Critérios de Avaliação | |
 |:---|:---|
 | **Descrição/Objetivo:** | Configurar critérios de avaliação Peer-to-Peer. |
 | **Atores:** | Professor, Administrador, Sistema |
@@ -341,6 +335,5 @@ Esta subseção apresenta as referências aos documentos utilizados.
 
 * [UML Specification](https://www.omg.org/spec/UML/2.5/About-UML/)
 * [IEEE Std 830-1998 - Recommended Practice for Software Requirements Specifications](https://ieeexplore.ieee.org/document/720574)
-
 
 [ [VOLTAR AO INÍCIO](#projeto-de-software-sistema-de-avaliação-de-projetos) ]
